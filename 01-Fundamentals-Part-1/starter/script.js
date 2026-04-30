@@ -62,8 +62,6 @@ job = "teacher";
 lastName = "Nigam";
 console.log(lastName);
 
-*/
-
 const now = 2037;
 const ageJonas = now - 1996;
 const ageSarah = now - 2018;
@@ -91,3 +89,57 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
+
+const now = 2037;
+const ageJonas = now - 1996;
+const ageSarah = now - 2018;
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log(ageJonas, ageSarah, averageAge);
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiple
+lines`);
+
+*/
+
+const age = 15;
+
+if (age >= 18) {
+  console.log("Sarha can start driving license 🚗");
+} else {
+  const yearLeft = 18 - age;
+  console.log(`Sarah is too young. Wait anaother ${yearLeft} years :)`);
+}
+
+const birthYear = 2012;
+
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
